@@ -12,6 +12,7 @@ tazewell uses [Maven](http://maven.apache.org) as its build tool. A number of pr
 
 * JDK 1.7
 * Maven 3.2.3
+* Tomcat 7+
 
 ### preparing a full build
 
