@@ -20,4 +20,4 @@ Execute this command from the directory of the parent module: `mvn clean install
 
 ## uses
 
-See the [wiki](https://github.com/argherna/tazewell/wiki) for configuration examples and use cases of tazewell.
+See the [wiki](https://github.com/argherna/tazewell/wiki#uses) for configuration examples and use cases of tazewell.
