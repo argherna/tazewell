@@ -1,4 +1,4 @@
-package info.gherna.tazewell.valves;
+package com.github.argherna.tazewell.valves;
 
 /*
  * #%L
