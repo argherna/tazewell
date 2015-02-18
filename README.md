@@ -18,6 +18,6 @@ tazewell uses [Maven](http://maven.apache.org) as its build tool. A number of pr
 
 Execute this command from the directory of the parent module: `mvn clean install`. This will compile all the files and build the jar file.
 
-## uses
+## use cases
 
 See the [wiki](https://github.com/argherna/tazewell/wiki#uses) for configuration examples and use cases of tazewell.
