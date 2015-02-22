@@ -1,10 +1,9 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.github.argherna.tazewell</groupId>
   <artifactId>tazewell</artifactId>
-  <version>0.1.0-SNAPSHOT</version>
+  <version>0.1.0</version>
   <packaging>jar</packaging>
 
   <url>https://github.com/argherna</url>
@@ -168,6 +167,7 @@
     <connection>scm:git:git@github.com:argherna/tazewell.git</connection>
     <developerConnection>scm:git:git@github.com:argherna/tazewell.git</developerConnection>
     <url>git@github.com:argherna/tazewell.git</url>
+    <tag>tazewell-0.1.0</tag>
   </scm>
 
   <inceptionYear>2015</inceptionYear>
