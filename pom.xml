@@ -21,6 +21,7 @@
     <maven-release-plugin.version>2.5.1</maven-release-plugin.version>
     <maven-resources-plugin.version>2.4</maven-resources-plugin.version>
     <maven-source-plugin.version>2.1.2</maven-source-plugin.version>
+    <nexus-staging-maven-plugin.version>1.6.3</nexus-staging-maven-plugin.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <tomcat.version>7.0.42</tomcat.version>
     <versions-maven-plugin.version>2.1</versions-maven-plugin.version>
@@ -124,6 +125,17 @@
               </execution>
             </executions>
           </plugin>
+          <plugin>
+            <groupId>org.sonatype.plugins</groupId>
+            <artifactId>nexus-staging-maven-plugin</artifactId>
+            <version>${nexus-staging-maven-plugin.version}</version>
+            <extensions>false</extensions>
+            <configuration>
+              <serverId>ossrh</serverId>
+              <nexusUrl>https://oss.sonatype.org/</nexusUrl>
+              <autoReleaseAfterClose>true</autoReleaseAfterClose>
+            </configuration>
+          </plugin>
         </plugins>
       </build>
     </profile>
@@ -159,4 +171,16 @@
   </scm>
 
   <inceptionYear>2015</inceptionYear>
+
+  <distributionManagement>
+    <repository>
+      <id>ossrh</id>
+      <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+    </repository>
+    <snapshotRepository>
+      <id>ossrh</id>
+      <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+    </snapshotRepository>
+  </distributionManagement>
+
 </project>
