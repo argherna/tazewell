@@ -4,6 +4,10 @@ Lightweight Tomcat components to ease development of web applications that requi
 
 When deployed to the `lib` directory in Tomcat, tazewell makes available utility valves that can be used in place of heavier weight integrations such as with web iso systems.
 
+## download tazewell
+
+You can download and build tazewell from [source](https://github.com/argherna/tazewell/releases). You can also download tazewell from Maven Central.
+
 ## use tazewell in your project
 
 ### maven
