@@ -6,7 +6,7 @@ When deployed to the `lib` directory in Tomcat, tazewell makes available utility
 
 ## download tazewell
 
-You can download and build tazewell from [source](https://github.com/argherna/tazewell/releases). You can also download tazewell from Maven Central.
+You can download and build tazewell from [source](https://github.com/argherna/tazewell/releases). You can also download tazewell from [Maven Central](http://search.maven.org/remotecontent?filepath=com/github/argherna/tazewell/tazewell/0.1.0/tazewell-0.1.0.jar).
 
 ## use tazewell in your project
 
