@@ -22,7 +22,7 @@
     <maven-source-plugin.version>2.1.2</maven-source-plugin.version>
     <nexus-staging-maven-plugin.version>1.6.3</nexus-staging-maven-plugin.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <tomcat.version>7.0.42</tomcat.version>
+    <tomcat.version>7.0.68</tomcat.version>
     <versions-maven-plugin.version>2.1</versions-maven-plugin.version>
   </properties>
 
@@ -30,6 +30,12 @@
     <dependency>
       <groupId>org.apache.tomcat</groupId>
       <artifactId>tomcat-catalina</artifactId>
+      <version>${tomcat.version}</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.tomcat</groupId>
+      <artifactId>tomcat-coyote</artifactId>
       <version>${tomcat.version}</version>
       <scope>provided</scope>
     </dependency>
